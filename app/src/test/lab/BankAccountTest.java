@@ -4,12 +4,19 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import oop.Card;
+import oop.PlatinumCard;
+import oop.lab.BankAccount;
+import oop.lab.BusinessAccount;
+import oop.lab.CreditCard;
+import oop.lab.SavingsAccount;
+
 import java.util.ArrayList;
 import java.util.List;
 
 // Assume your main classes are in the same package or imported.
 
-class BankAccountTest {
+public class BankAccountTest {
 
     private SavingsAccount savingsAccount;
     private CheckingAccount checkingAccount;

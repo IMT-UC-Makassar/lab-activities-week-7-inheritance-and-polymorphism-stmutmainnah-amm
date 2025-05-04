@@ -2,7 +2,10 @@ package oop.lab;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-class AbstractionAndInterfaceTest {
+public class AbstractionAndInterfaceTest {
+    public static void main(String[] args) {
+        
+    }
 
     @Test
     void testSavingsAccountIsAbstractType() {
